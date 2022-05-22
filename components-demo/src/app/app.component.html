@@ -1,0 +1,24 @@
+<img [src]="imgURL" />
+<app-favorite [boolResults]="test" (change)="onFavoriteChanged($event)"></app-favorite>
+<bootstrap-panel >
+    <ng-container class="heading">Heading</ng-container>
+    <ng-container class="body">
+        <h2>Body</h2>
+        <p>Some content...</p>
+    </ng-container>
+</bootstrap-panel>
+<app-like [likesCount]="tweet.likes" [isActive]="tweet.isLiked"></app-like>
+<hr>
+<app-ngif></app-ngif>
+<hr>
+<app-ngswitch></app-ngswitch>
+<hr>
+<app-ngfor></app-ngfor>
+<hr>
+<app-ngstyle></app-ngstyle>
+<hr>
+<app-save-traversal></app-save-traversal>
+<hr>
+<app-custom-directives></app-custom-directives>
+<hr>
+<zippy title="Shipping Details">Shipping Details Content</zippy>
